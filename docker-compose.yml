@@ -11,10 +11,11 @@ services:
 
   python_server:
     build: ./python_server
-    ports:
-      - "8000:8000"  # Expose port 8000 for the Python server
+    # Remove the port mapping as it's not needed externally
+    # ports:
+    #   - "5000:5000"
     networks:
       - webnet
 
 networks:
-  webnet:
+  webnet: 
