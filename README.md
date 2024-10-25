@@ -11,7 +11,7 @@ This project is a web application for managing team members, allowing users to a
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [License](#license)
+
 
 ## Project Structure
 
